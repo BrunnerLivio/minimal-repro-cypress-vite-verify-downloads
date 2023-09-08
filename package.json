@@ -1,0 +1,22 @@
+{
+  "name": "minimal-repro-crypress-vite-verify-downloads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server .",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cy-verify-downloads": "^0.1.16",
+    "cypress": "^13.1.0",
+    "cypress-vite": "^1.4.2",
+    "live-server": "^1.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-node-polyfills": "^0.12.0"
+  }
+}
